@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Year4.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Year4.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Year4Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\README.md" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Colour_Blind">
+      <UniqueIdentifier>{47DA92E9-ABC2-3525-800F-5B1B8F7EE69A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Colour_Blind\Source">
+      <UniqueIdentifier>{4C8D7E78-2368-34DE-88A6-8E67A7DF66CB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Colour_Blind\Source\Colour_Blind">
+      <UniqueIdentifier>{4CDC6B41-D3D7-31B0-AED3-2C98F7303597}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Colour_Blind\Source\Colour_Blind\Colour_Blind.Build.cs">
+      <Filter>Plugins\Colour_Blind\Source\Colour_Blind</Filter>
+    </None>
+    <Filter Include="Plugins\Colour_Blind\Source\Colour_Blind\Private">
+      <UniqueIdentifier>{B895EC0C-B5D1-3268-B748-748F831EC35D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Colour_Blind\Source\Colour_Blind\Private\Colour_Blind.cpp">
+      <Filter>Plugins\Colour_Blind\Source\Colour_Blind\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Colour_Blind\Source\Colour_Blind\Private\Colour_BlindBPLibrary.cpp">
+      <Filter>Plugins\Colour_Blind\Source\Colour_Blind\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Colour_Blind\Source\Colour_Blind\Public">
+      <UniqueIdentifier>{1BE55435-5D90-39CC-9B52-048AD7771489}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Colour_Blind\Source\Colour_Blind\Public\Colour_Blind.h">
+      <Filter>Plugins\Colour_Blind\Source\Colour_Blind\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Colour_Blind\Source\Colour_Blind\Public\Colour_BlindBPLibrary.h">
+      <Filter>Plugins\Colour_Blind\Source\Colour_Blind\Public</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\Colour_Blind\Colour_Blind.uplugin">
+      <Filter>Plugins\Colour_Blind</Filter>
+    </None>
+    <Filter Include="Plugins\Colour_Blind\Resources">
+      <UniqueIdentifier>{1B0E6F40-87CE-3265-9903-1B35755DC72D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Colour_Blind\Resources\Icon128.png">
+      <Filter>Plugins\Colour_Blind\Resources</Filter>
+    </None>
+    <Filter Include="Source\Year4">
+      <UniqueIdentifier>{F7137238-C7CC-3CB4-85EC-1CA3511E1C94}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Year4\MyClass.cpp">
+      <Filter>Source\Year4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Year4\MyClass.h">
+      <Filter>Source\Year4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Year4\TestPlugin.cpp">
+      <Filter>Source\Year4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Year4\TestPlugin.h">
+      <Filter>Source\Year4</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Year4\World_subSystem_Observer.cpp">
+      <Filter>Source\Year4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Year4\World_subSystem_Observer.h">
+      <Filter>Source\Year4</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Year4\Year4.Build.cs">
+      <Filter>Source\Year4</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Year4\Year4.cpp">
+      <Filter>Source\Year4</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Year4\Year4.h">
+      <Filter>Source\Year4</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

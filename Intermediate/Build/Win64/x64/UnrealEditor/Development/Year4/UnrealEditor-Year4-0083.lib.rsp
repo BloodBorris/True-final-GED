@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-Year4-0083.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\Year4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj"
+"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\MyClass.cpp.obj"
+"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\TestPlugin.cpp.obj"
+"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\Year4.cpp.obj"
+"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\Default.rc2.res"
+/OUT:"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\UnrealEditor-Year4-0083.lib"

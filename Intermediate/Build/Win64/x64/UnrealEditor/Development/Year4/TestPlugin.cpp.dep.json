@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\alex\\documents\\github\\game_engine_assignment\\source\\year4\\testplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\alex\\documents\\github\\game_engine_assignment\\intermediate\\build\\win64\\x64\\year4editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderoldest.h.pch",
+        "Includes": [
+            "c:\\users\\alex\\documents\\github\\game_engine_assignment\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\year4\\definitions.year4.h",
+            "c:\\users\\alex\\documents\\github\\game_engine_assignment\\source\\year4\\testplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

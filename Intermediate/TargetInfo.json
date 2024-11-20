@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Year4",
+			"Path": "..\\Source\\Year4.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Year4Editor",
+			"Path": "..\\Source\\Year4Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

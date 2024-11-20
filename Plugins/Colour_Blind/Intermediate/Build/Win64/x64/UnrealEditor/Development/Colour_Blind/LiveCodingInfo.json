@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.Colour_Blind.cpp.obj": [
+			"Colour_Blind.init.gen.cpp.obj",
+			"Colour_BlindBPLibrary.gen.cpp.obj",
+			"Colour_Blind.cpp.obj",
+			"Colour_BlindBPLibrary.cpp.obj"
+		]
+	}
+}
