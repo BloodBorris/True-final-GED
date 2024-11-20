@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex\\Downloads\\Final_GED_Test\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\Year4ModuleRules.csproj": {}
+    "C:\\Users\\Alex\\Downloads\\True final GED\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\Year4ModuleRules.csproj": {}
   },
   "projects": {
     "C:\\Program Files\\Epic Games\\UE_5.4\\Engine\\Intermediate\\Build\\BuildRulesProjects\\UE5ProgramRules\\UE5ProgramRules.csproj": {
@@ -1239,14 +1239,14 @@
         }
       }
     },
-    "C:\\Users\\Alex\\Downloads\\Final_GED_Test\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\Year4ModuleRules.csproj": {
+    "C:\\Users\\Alex\\Downloads\\True final GED\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\Year4ModuleRules.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex\\Downloads\\Final_GED_Test\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\Year4ModuleRules.csproj",
+        "projectUniqueName": "C:\\Users\\Alex\\Downloads\\True final GED\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\Year4ModuleRules.csproj",
         "projectName": "Year4ModuleRules",
-        "projectPath": "C:\\Users\\Alex\\Downloads\\Final_GED_Test\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\Year4ModuleRules.csproj",
+        "projectPath": "C:\\Users\\Alex\\Downloads\\True final GED\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\Year4ModuleRules.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex\\Downloads\\Final_GED_Test\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\obj\\",
+        "outputPath": "C:\\Users\\Alex\\Downloads\\True final GED\\Intermediate\\Build\\BuildRulesProjects\\Year4ModuleRules\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",

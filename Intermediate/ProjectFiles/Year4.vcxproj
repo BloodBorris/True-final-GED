@@ -507,7 +507,9 @@
     <None Include="..\..\Year4.uproject"/>
     <None Include="..\..\Source\Year4.Target.cs"/>
     <None Include="..\..\Source\Year4Editor.Target.cs"/>
-    <None Include="..\..\README.md"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>

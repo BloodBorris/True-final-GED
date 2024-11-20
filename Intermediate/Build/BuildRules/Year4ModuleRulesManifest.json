@@ -1,9 +1,9 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Alex\\Downloads\\Final_GED_Test\\Source\\Year4\\Year4.Build.cs",
-		"C:\\Users\\Alex\\Downloads\\Final_GED_Test\\Plugins\\Colour_Blind\\Source\\Colour_Blind\\Colour_Blind.Build.cs",
-		"C:\\Users\\Alex\\Downloads\\Final_GED_Test\\Source\\Year4.Target.cs",
-		"C:\\Users\\Alex\\Downloads\\Final_GED_Test\\Source\\Year4Editor.Target.cs"
+		"C:\\Users\\Alex\\Downloads\\True final GED\\Source\\Year4\\Year4.Build.cs",
+		"C:\\Users\\Alex\\Downloads\\True final GED\\Plugins\\Colour_Blind\\Source\\Colour_Blind\\Colour_Blind.Build.cs",
+		"C:\\Users\\Alex\\Downloads\\True final GED\\Source\\Year4.Target.cs",
+		"C:\\Users\\Alex\\Downloads\\True final GED\\Source\\Year4Editor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }
