@@ -69,7 +69,7 @@ void UWorld_subSystem_Observer::SpawnObject()
 
 	
 	FActorSpawnParameters SpawnParams;
-	SpawnParams.Owner = nullptr; // No specific owner
+	SpawnParams.Owner = nullptr; 
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
 	
