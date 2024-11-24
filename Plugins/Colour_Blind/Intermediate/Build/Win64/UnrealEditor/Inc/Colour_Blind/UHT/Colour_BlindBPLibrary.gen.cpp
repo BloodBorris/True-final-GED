@@ -32,13 +32,7 @@ struct Z_Construct_UFunction_UColour_BlindBPLibrary_ApplyMaterialToPostProcessVo
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ColorBlindness" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n     * Applies one of the provided materials to a selected PostProcessVolume based on the input string.\n     * @param SelectedPostProcessVolume - The PostProcessVolume to which the material will be applied.\n     * @param ProtanopiaMaterial - Material for Protanopia.\n     * @param DeuteranopiaMaterial - Material for Deuteranopia.\n     * @param TritanopiaMaterial - Material for Tritanopia.\n     * @param ColorBlindnessType - Type of color blindness (Protanopia, Deuteranopia, Tritanopia).\n     */" },
-#endif
 		{ "ModuleRelativePath", "Public/Colour_BlindBPLibrary.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Applies one of the provided materials to a selected PostProcessVolume based on the input string.\n@param SelectedPostProcessVolume - The PostProcessVolume to which the material will be applied.\n@param ProtanopiaMaterial - Material for Protanopia.\n@param DeuteranopiaMaterial - Material for Deuteranopia.\n@param TritanopiaMaterial - Material for Tritanopia.\n@param ColorBlindnessType - Type of color blindness (Protanopia, Deuteranopia, Tritanopia)." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ColorBlindnessType_MetaData[] = {
 		{ "NativeConst", "" },
@@ -100,13 +94,7 @@ struct Z_Construct_UFunction_UColour_BlindBPLibrary_DisablePostProcessMaterial_S
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ColorBlindness" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n     * Disables any applied post-process material by clearing the WeightedBlendables array.\n     * @param SelectedPostProcessVolume - The PostProcessVolume to clear.\n     */" },
-#endif
 		{ "ModuleRelativePath", "Public/Colour_BlindBPLibrary.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Disables any applied post-process material by clearing the WeightedBlendables array.\n@param SelectedPostProcessVolume - The PostProcessVolume to clear." },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_SelectedPostProcessVolume;
@@ -164,8 +152,8 @@ struct Z_Construct_UClass_UColour_BlindBPLibrary_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UColour_BlindBPLibrary_ApplyMaterialToPostProcessVolumeByType, "ApplyMaterialToPostProcessVolumeByType" }, // 3409566812
-		{ &Z_Construct_UFunction_UColour_BlindBPLibrary_DisablePostProcessMaterial, "DisablePostProcessMaterial" }, // 3209986813
+		{ &Z_Construct_UFunction_UColour_BlindBPLibrary_ApplyMaterialToPostProcessVolumeByType, "ApplyMaterialToPostProcessVolumeByType" }, // 1038583955
+		{ &Z_Construct_UFunction_UColour_BlindBPLibrary_DisablePostProcessMaterial, "DisablePostProcessMaterial" }, // 566017776
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -211,14 +199,14 @@ UColour_BlindBPLibrary::~UColour_BlindBPLibrary() {}
 // End Class UColour_BlindBPLibrary
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_Alex_Documents_GitHub_Game_Engine_assignment_Plugins_Colour_Blind_Source_Colour_Blind_Public_Colour_BlindBPLibrary_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_alexs_unity_games_True_final_GED_Plugins_Colour_Blind_Source_Colour_Blind_Public_Colour_BlindBPLibrary_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UColour_BlindBPLibrary, UColour_BlindBPLibrary::StaticClass, TEXT("UColour_BlindBPLibrary"), &Z_Registration_Info_UClass_UColour_BlindBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UColour_BlindBPLibrary), 526512063U) },
+		{ Z_Construct_UClass_UColour_BlindBPLibrary, UColour_BlindBPLibrary::StaticClass, TEXT("UColour_BlindBPLibrary"), &Z_Registration_Info_UClass_UColour_BlindBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UColour_BlindBPLibrary), 2364277509U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Alex_Documents_GitHub_Game_Engine_assignment_Plugins_Colour_Blind_Source_Colour_Blind_Public_Colour_BlindBPLibrary_h_1719178861(TEXT("/Script/Colour_Blind"),
-	Z_CompiledInDeferFile_FID_Users_Alex_Documents_GitHub_Game_Engine_assignment_Plugins_Colour_Blind_Source_Colour_Blind_Public_Colour_BlindBPLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Alex_Documents_GitHub_Game_Engine_assignment_Plugins_Colour_Blind_Source_Colour_Blind_Public_Colour_BlindBPLibrary_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_alexs_unity_games_True_final_GED_Plugins_Colour_Blind_Source_Colour_Blind_Public_Colour_BlindBPLibrary_h_4272294554(TEXT("/Script/Colour_Blind"),
+	Z_CompiledInDeferFile_FID_Users_alexs_unity_games_True_final_GED_Plugins_Colour_Blind_Source_Colour_Blind_Public_Colour_BlindBPLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_alexs_unity_games_True_final_GED_Plugins_Colour_Blind_Source_Colour_Blind_Public_Colour_BlindBPLibrary_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

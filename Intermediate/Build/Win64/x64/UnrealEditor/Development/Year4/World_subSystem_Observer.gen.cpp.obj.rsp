@@ -1,11 +1,11 @@
-"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\UnrealEditor\Inc\Year4\UHT\World_subSystem_Observer.gen.cpp"
-/FI"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\Year4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
-/FI"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\Definitions.Year4.h"
-/Yu"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\Year4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
-/Fp"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\Year4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.pch"
-/Fo"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\World_subSystem_Observer.gen.cpp.obj"
-/sourceDependencies "C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\World_subSystem_Observer.gen.cpp.dep.json"
-@"C:\Users\Alex\Documents\GitHub\Game_Engine_assignment\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\Year4.Shared.rsp"
+"C:\Users\alexs\unity games\True-final-GED\Intermediate\Build\Win64\UnrealEditor\Inc\Year4\UHT\World_subSystem_Observer.gen.cpp"
+/FI"C:\Users\alexs\unity games\True-final-GED\Intermediate\Build\Win64\x64\Year4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
+/FI"C:\Users\alexs\unity games\True-final-GED\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\Definitions.Year4.h"
+/Yu"C:\Users\alexs\unity games\True-final-GED\Intermediate\Build\Win64\x64\Year4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h"
+/Fp"C:\Users\alexs\unity games\True-final-GED\Intermediate\Build\Win64\x64\Year4Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.pch"
+/Fo"C:\Users\alexs\unity games\True-final-GED\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\World_subSystem_Observer.gen.cpp.obj"
+/sourceDependencies "C:\Users\alexs\unity games\True-final-GED\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\World_subSystem_Observer.gen.cpp.dep.json"
+@"C:\Users\alexs\unity games\True-final-GED\Intermediate\Build\Win64\x64\UnrealEditor\Development\Year4\Year4.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

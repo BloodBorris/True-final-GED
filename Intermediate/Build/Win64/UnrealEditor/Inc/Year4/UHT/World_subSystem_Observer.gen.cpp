@@ -29,13 +29,7 @@ struct Z_Construct_UFunction_UWorld_subSystem_Observer_DeleteAllInstances_Static
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Observer" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Blueprint Callable Function to delete all instances of the object\n" },
-#endif
 		{ "ModuleRelativePath", "World_subSystem_Observer.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Blueprint Callable Function to delete all instances of the object" },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Instances_MetaData[] = {
 		{ "NativeConst", "" },
@@ -80,13 +74,7 @@ struct Z_Construct_UFunction_UWorld_subSystem_Observer_EnsureObjectExists_Static
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Observer" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Function to check if the object exists, handle duplicates, and spawn one if necessary\n" },
-#endif
 		{ "ModuleRelativePath", "World_subSystem_Observer.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Function to check if the object exists, handle duplicates, and spawn one if necessary" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -120,13 +108,7 @@ struct Z_Construct_UFunction_UWorld_subSystem_Observer_GetAllInstances_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Observer" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Blueprint Callable Function to get all instances of the object\n" },
-#endif
 		{ "ModuleRelativePath", "World_subSystem_Observer.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Blueprint Callable Function to get all instances of the object" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_ReturnValue_Inner;
@@ -172,13 +154,7 @@ struct Z_Construct_UFunction_UWorld_subSystem_Observer_GetObserverSubsystem_Stat
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Subsystem" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// Static function to get the subsystem from a Blueprint context\n" },
-#endif
 		{ "ModuleRelativePath", "World_subSystem_Observer.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Static function to get the subsystem from a Blueprint context" },
-#endif
 		{ "WorldContext", "WorldContextObject" },
 	};
 #endif // WITH_METADATA
@@ -237,35 +213,23 @@ struct Z_Construct_UClass_UWorld_subSystem_Observer_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "BlueprintType", "true" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * A World Subsystem to ensure a specific object exists in the scene and manage multiple instances.\n */" },
-#endif
 		{ "IncludePath", "World_subSystem_Observer.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "World_subSystem_Observer.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "A World Subsystem to ensure a specific object exists in the scene and manage multiple instances." },
-#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ObjectToEnsure_MetaData[] = {
 		{ "Category", "Observer" },
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// The class type of the object to monitor/spawn\n" },
-#endif
 		{ "ModuleRelativePath", "World_subSystem_Observer.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "The class type of the object to monitor/spawn" },
-#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FClassPropertyParams NewProp_ObjectToEnsure;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UWorld_subSystem_Observer_DeleteAllInstances, "DeleteAllInstances" }, // 1906420504
-		{ &Z_Construct_UFunction_UWorld_subSystem_Observer_EnsureObjectExists, "EnsureObjectExists" }, // 2200980636
-		{ &Z_Construct_UFunction_UWorld_subSystem_Observer_GetAllInstances, "GetAllInstances" }, // 3941516094
-		{ &Z_Construct_UFunction_UWorld_subSystem_Observer_GetObserverSubsystem, "GetObserverSubsystem" }, // 1095083277
+		{ &Z_Construct_UFunction_UWorld_subSystem_Observer_DeleteAllInstances, "DeleteAllInstances" }, // 2172835638
+		{ &Z_Construct_UFunction_UWorld_subSystem_Observer_EnsureObjectExists, "EnsureObjectExists" }, // 2744027069
+		{ &Z_Construct_UFunction_UWorld_subSystem_Observer_GetAllInstances, "GetAllInstances" }, // 3276820259
+		{ &Z_Construct_UFunction_UWorld_subSystem_Observer_GetObserverSubsystem, "GetObserverSubsystem" }, // 2753609556
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -316,14 +280,14 @@ UWorld_subSystem_Observer::~UWorld_subSystem_Observer() {}
 // End Class UWorld_subSystem_Observer
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_Alex_Documents_GitHub_Game_Engine_assignment_Source_Year4_World_subSystem_Observer_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_alexs_unity_games_True_final_GED_Source_Year4_World_subSystem_Observer_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWorld_subSystem_Observer, UWorld_subSystem_Observer::StaticClass, TEXT("UWorld_subSystem_Observer"), &Z_Registration_Info_UClass_UWorld_subSystem_Observer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWorld_subSystem_Observer), 125735702U) },
+		{ Z_Construct_UClass_UWorld_subSystem_Observer, UWorld_subSystem_Observer::StaticClass, TEXT("UWorld_subSystem_Observer"), &Z_Registration_Info_UClass_UWorld_subSystem_Observer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWorld_subSystem_Observer), 1900938122U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Alex_Documents_GitHub_Game_Engine_assignment_Source_Year4_World_subSystem_Observer_h_2237572012(TEXT("/Script/Year4"),
-	Z_CompiledInDeferFile_FID_Users_Alex_Documents_GitHub_Game_Engine_assignment_Source_Year4_World_subSystem_Observer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Alex_Documents_GitHub_Game_Engine_assignment_Source_Year4_World_subSystem_Observer_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_alexs_unity_games_True_final_GED_Source_Year4_World_subSystem_Observer_h_1350253632(TEXT("/Script/Year4"),
+	Z_CompiledInDeferFile_FID_Users_alexs_unity_games_True_final_GED_Source_Year4_World_subSystem_Observer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_alexs_unity_games_True_final_GED_Source_Year4_World_subSystem_Observer_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

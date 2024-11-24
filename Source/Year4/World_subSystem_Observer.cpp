@@ -11,16 +11,16 @@ void UWorld_subSystem_Observer::EnsureObjectExists()
 		return;
 	}
 
-	// Get all instances of the object
+	
 	TArray<AActor*> Instances = GetAllInstances();
 
-	// Handle duplicates: Delete all if there are more than one
+	
 	if (Instances.Num() > 1)
 	{
 		DeleteAllInstances(Instances);
 	}
 
-	// If there are no instances left, spawn a new one
+	
 	if (Instances.Num() == 0 || Instances.Num() > 1)
 	{
 		SpawnObject();
@@ -38,7 +38,7 @@ TArray<AActor*> UWorld_subSystem_Observer::GetAllInstances() const
 		return Instances;
 	}
 
-	// Iterate through all actors of the specified type
+	
 	for (TActorIterator<AActor> It(World, ObjectToEnsure.Get()); It; ++It)
 	{
 		if (IsValid(*It))
@@ -67,12 +67,12 @@ void UWorld_subSystem_Observer::SpawnObject()
 	UWorld* World = GetWorld();
 	if (!World) return;
 
-	// Spawn parameters for the actor
+	
 	FActorSpawnParameters SpawnParams;
 	SpawnParams.Owner = nullptr; // No specific owner
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
-	// Spawn the object at the world's origin or a predefined location
+	
 	FVector SpawnLocation = FVector::ZeroVector;
 	FRotator SpawnRotation = FRotator::ZeroRotator;
 

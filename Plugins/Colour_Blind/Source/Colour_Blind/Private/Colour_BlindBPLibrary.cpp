@@ -19,7 +19,7 @@ void UColour_BlindBPLibrary::ApplyMaterialToPostProcessVolumeByType(
 
     UMaterialInstance* SelectedMaterial = nullptr;
 
-    // Determine which material to apply based on the ColorBlindnessType
+    
     if (ColorBlindnessType == "Protanopia")
     {
         SelectedMaterial = ProtanopiaMaterial;
@@ -44,11 +44,11 @@ void UColour_BlindBPLibrary::ApplyMaterialToPostProcessVolumeByType(
         return;
     }
 
-    // Create a dynamic material instance from the selected material
+    
     UMaterialInstanceDynamic* DynamicMaterial = UMaterialInstanceDynamic::Create(SelectedMaterial, nullptr);
     if (DynamicMaterial)
     {
-        // Apply the dynamic material to the PostProcessVolume
+       
         SelectedPostProcessVolume->Settings.WeightedBlendables.Array.Empty();
         SelectedPostProcessVolume->Settings.WeightedBlendables.Array.Add(FWeightedBlendable(1.0f, DynamicMaterial));
         UE_LOG(LogTemp, Log, TEXT("Material applied for ColorBlindnessType: %s"), *ColorBlindnessType);
@@ -67,7 +67,7 @@ void UColour_BlindBPLibrary::DisablePostProcessMaterial(APostProcessVolume* Sele
         return;
     }
 
-    // Clear the WeightedBlendables array to remove any applied materials
+   
     SelectedPostProcessVolume->Settings.WeightedBlendables.Array.Empty();
     UE_LOG(LogTemp, Log, TEXT("PostProcessVolume material disabled."));
 }
